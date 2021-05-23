@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#top-container{
+    width: 350px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#container{
+    width: 350px;
+    height: 400px;
+    background-color: aqua;
+    
+}
+label{
+    position: relative;
+    top: 10px;
+    left: 25%;
+    font-size:x-large;
+}
+#calculateid{
+    position: relative;
+    top: 15px;
+    left: 10%;
+}
+#calculate{
+    position: relative;
+    top: 25px;
+    left: 10%;
+    background-color: red;
+}
+#tip{
+    position: relative;
+    font-size: x-large;
+    top: 50px;
+    left: 38%;
+}
+#each{
+    position: relative;
+    font-size: x-large;
+    top: 75px;
+    left: 25%;
+}
