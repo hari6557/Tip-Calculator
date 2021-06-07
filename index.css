@@ -1,49 +1,52 @@
-body{
-    display: flex;
-    justify-content: center;
+body {
+  display: flex;
+  justify-content: center;
 }
 
-#top-container{
-    width: 350px;
-    height: 50px;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
+#top-container {
+  width: 350px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
 }
-#container{
-    width: 350px;
-    height: 400px;
-    background-color: aqua;
-    
+#heading {
+  display: flex;
+  align-items: center;
 }
-label{
-    position: relative;
-    top: 10px;
-    left: 25%;
-    font-size:x-large;
+#container {
+  width: 350px;
+  height: 400px;
+  background-color: aqua;
 }
-#calculateid{
-    position: relative;
-    top: 15px;
-    left: 10%;
+label {
+  position: relative;
+  top: 10px;
+  left: 25%;
+  font-size: x-large;
 }
-#calculate{
-    position: relative;
-    top: 25px;
-    left: 10%;
-    background-color: red;
+#calculateid {
+  position: relative;
+  top: 15px;
+  left: 10%;
 }
-#tip{
-    position: relative;
-    font-size: x-large;
-    top: 50px;
-    left: 38%;
+#calculate {
+  position: relative;
+  top: 25px;
+  left: 10%;
+  background-color: red;
 }
-#each{
-    position: relative;
-    font-size: x-large;
-    top: 75px;
-    left: 25%;
+#tip {
+  position: relative;
+  font-size: x-large;
+  top: 50px;
+  left: 38%;
+}
+#each {
+  position: relative;
+  font-size: x-large;
+  top: 75px;
+  left: 25%;
 }
